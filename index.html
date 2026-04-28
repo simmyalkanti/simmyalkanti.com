@@ -419,8 +419,22 @@
       aspect-ratio: 2/3;
       max-height: 52vh;
       overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--cream);
+      width: 100%;
     }
-    .hero-photo img { object-fit: contain; object-position: center center; background: var(--cream); display: block; margin: 0 auto; }
+    .hero-photo img { 
+      object-fit: contain; 
+      object-position: center center; 
+      background: var(--cream); 
+      display: block; 
+      margin: 0 auto;
+      max-height: 52vh;
+      width: auto;
+      max-width: 100%;
+    }
     .hero-text { padding: 1.25rem 1.25rem 2.5rem; width: 100%; box-sizing: border-box; }
     .hero-title { font-size: 1.75rem; white-space: normal; }
     .bio-punch { font-size: 0.9rem; font-weight: 600; }
